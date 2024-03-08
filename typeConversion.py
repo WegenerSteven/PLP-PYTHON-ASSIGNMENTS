@@ -37,7 +37,7 @@ age=input("Enter your age: ")
 weight=input("Enter your weight: ")
 
 #print user details
-print("\nHello,",user_name,"\nYou are "+age+" years old.")
+print("\nHello,",user_name,"\nYou are "+age+ " years old.")
 if int(age)>18:
     print("You can vote.")
 else:
